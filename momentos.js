@@ -336,7 +336,7 @@ const MOMENTOS = [
       "E em poucos dias estávamos morando em um apartamento térreo no mesmo bairro.",
   },
   {
-    foto: null,
+    foto: "fotos/cupim.jpg",
     data: "No apartamento novo",
     titulo: "Cupim",
     texto:
