@@ -220,6 +220,16 @@ const MOMENTOS = [
       "Curtimos várias praias também. Principalmente depois da motinha. " +
       "Era uma beleza estacionar em qualquer lugar 🥺",
   },
+  {
+    foto: "fotos/familia.jpg",
+    data: "De presente",
+    titulo: "Família",
+    texto:
+      "Através de você eu entendi o que é família. Sempre foi só eu, meu irmão e meus pais. " +
+      "Nunca tive família próxima. Meus familiares vi poucas vezes e infelizmente " +
+      "não consegui criar esse sentimento por eles. " +
+      "Mas através de você eu ganhei uma família ❤️",
+  },
 ];
 
 // Mensagem final do site
