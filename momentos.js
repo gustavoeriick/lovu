@@ -318,6 +318,14 @@ const MOMENTOS = [
       "Na virada de 2020 para 2021 tínhamos preparado tudo para viajar para o Sana, " +
       "mas não parou de chover por dias. Foi a primeira vez que não passamos a virada no Sana. 😢",
   },
+  {
+    foto: "fotos/escritorio.jpg",
+    data: "Meu cantinho",
+    titulo: "Escritório",
+    texto:
+      "Finalmente montei meu próprio escritório em cada detalhezinho. " +
+      "Era meu sonho ter meu cantinho também. 😊",
+  },
 ];
 
 // Mensagem final do site
