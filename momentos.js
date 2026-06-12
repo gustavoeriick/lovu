@@ -175,6 +175,12 @@ const MOMENTOS = [
       "Em janeiro de 2018 você deu início a uma virada de chave na sua vida " +
       "com aquele curso na Embelleze. Lembro de ir te buscar depois das aulas.",
   },
+  {
+    foto: "fotos/bloquinho.jpg",
+    data: "Carnaval de 2018",
+    titulo: "Primeiro bloquinho",
+    texto: "Curtimos nosso primeiro bloquinho juntos com alguns amigos meus.",
+  },
 ];
 
 // Mensagem final do site
