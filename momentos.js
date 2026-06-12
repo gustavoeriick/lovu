@@ -381,6 +381,12 @@ const MOMENTOS = [
     titulo: "Cabanas",
     texto: "Comemos no Cabanas pela primeira vez e amamos!!",
   },
+  {
+    foto: "fotos/fit.jpg",
+    data: "Agosto de 2022",
+    titulo: "Fit",
+    texto: "Foi a época mais firme de todas de boa alimentação e academia.",
+  },
 ];
 
 // Mensagem final do site
