@@ -310,6 +310,14 @@ const MOMENTOS = [
     titulo: "Pálio",
     texto: "Ganhamos um carro que nunca dirigimos.",
   },
+  {
+    foto: null,
+    data: "A virada para 2021",
+    titulo: "Sem virada no camping",
+    texto:
+      "Na virada de 2020 para 2021 tínhamos preparado tudo para viajar para o Sana, " +
+      "mas não parou de chover por dias. Foi a primeira vez que não passamos a virada no Sana. 😢",
+  },
 ];
 
 // Mensagem final do site
