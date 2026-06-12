@@ -76,6 +76,15 @@ const MOMENTOS = [
       "Eu ia na sua casa no meio da semana. Você ia na minha. " +
       "Às vezes só pra conversar e ficar junto.",
   },
+  {
+    foto: "fotos/cozinhando.jpg",
+    data: "Enquanto isso, na cozinha",
+    titulo: "Muita comida!",
+    texto:
+      "Uma coisa que a gente descobriu rápido que gostava de fazer juntos era cozinhar. " +
+      "A gente inventava de fazer toda receita que aparecia na internet. " +
+      "A gente tinha até um perfil no Insta, lembra? 😂",
+  },
 ];
 
 // Mensagem final do site
