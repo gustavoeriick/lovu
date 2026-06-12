@@ -454,6 +454,17 @@ const MOMENTOS = [
       "Em dezembro compramos o nosso guarda-roupas maravilhoso e também a nossa " +
       "mesa de jantar dos sonhos!!",
   },
+  {
+    foto: "fotos/virada-com-amigos.jpg",
+    data: "A virada para 2024",
+    titulo: "Virada com amigos",
+    texto:
+      "Passamos a virada de ano no Sana com alguns amigos e sua mãe chegou a passar uns dias também. " +
+      "Chegamos pegando muita chuva. Camping muito cheio. Ficamos em um local que alagava. " +
+      "Depois mudamos para um lugar mais alto, mas choveu sem parar. Só nos últimos dias que o sol " +
+      "abriu e conseguimos aproveitar melhor, até mudamos a barraca lá pra cima e lá foi muito legal. " +
+      "Acendemos fogueira e até comemos pizza morrendo de frio.",
+  },
 ];
 
 // Mensagem final do site
