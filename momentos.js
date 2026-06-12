@@ -396,6 +396,14 @@ const MOMENTOS = [
       "Aproveitei a rescisão do contrato e montei um PC novinho para iniciar no trabalho novo " +
       "com um computador novinho. Eu mereço né! 😌",
   },
+  {
+    foto: "fotos/tecido.jpg",
+    data: "Março de 2023",
+    titulo: "Tecido",
+    texto:
+      "Em março de 2023 você começou as aulas de tecido e eu amava te acompanhar " +
+      "e assistir você fazendo algo desafiador pela primeira vez.",
+  },
 ];
 
 // Mensagem final do site
