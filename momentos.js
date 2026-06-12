@@ -206,6 +206,12 @@ const MOMENTOS = [
     titulo: "Lugares",
     texto: "Conhecemos uns lugares diferentes juntos ❤️",
   },
+  {
+    foto: "fotos/bebe-come.jpg",
+    data: "Como sempre",
+    titulo: "Bebe & Come",
+    texto: "E sempre comendo e sempre bebendo 😂",
+  },
 ];
 
 // Mensagem final do site
