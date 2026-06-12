@@ -35,9 +35,12 @@
     "Capítulo nove", "Capítulo dez", "Capítulo onze", "Capítulo doze",
   ];
 
+  var capitulo = 0;
+
   MOMENTOS.forEach(function (momento, i) {
     var section = document.createElement("section");
     section.className = "momento" + (i % 2 === 1 ? " invertido" : "");
+    if (!momento.foto) section.classList.add("centralizado");
 
     var fundo = document.createElement("div");
     fundo.className = "momento-fundo";
@@ -60,25 +63,28 @@
     var conteudo = document.createElement("div");
     conteudo.className = "momento-conteudo";
 
-    var numero = document.createElement("p");
-    numero.className = "momento-numero fade-item";
-    numero.textContent = numeros[i] || "Capítulo " + (i + 1);
+    // só os momentos com data ganham número de capítulo
+    if (momento.data) {
+      var numero = document.createElement("p");
+      numero.className = "momento-numero fade-item";
+      numero.textContent = numeros[capitulo] || "Capítulo " + (capitulo + 1);
+      capitulo++;
+      conteudo.appendChild(numero);
 
-    var data = document.createElement("span");
-    data.className = "momento-data fade-item";
-    data.textContent = momento.data;
+      var data = document.createElement("span");
+      data.className = "momento-data fade-item";
+      data.textContent = momento.data;
+      conteudo.appendChild(data);
+    }
 
     var titulo = document.createElement("h2");
     titulo.className = "momento-titulo fade-item";
     titulo.textContent = momento.titulo;
+    conteudo.appendChild(titulo);
 
     var texto = document.createElement("p");
     texto.className = "momento-texto fade-item";
     texto.textContent = momento.texto;
-
-    conteudo.appendChild(numero);
-    conteudo.appendChild(data);
-    conteudo.appendChild(titulo);
     conteudo.appendChild(texto);
 
     section.appendChild(fundo);

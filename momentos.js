@@ -16,44 +16,12 @@ const CASAL = {
 
 const MOMENTOS = [
   {
-    foto: "fotos/momento-1.jpg",
-    data: "O começo de tudo",
-    titulo: "Quando te conheci",
+    foto: null,
+    data: "",
+    titulo: "Oi minha pop 🍿",
     texto:
-      "Escreva aqui como foi o dia em que vocês se conheceram. " +
-      "Onde estavam, o que você sentiu, aquele detalhe que você nunca esqueceu.",
-  },
-  {
-    foto: "fotos/momento-2.jpg",
-    data: "Pouco tempo depois",
-    titulo: "O primeiro encontro",
-    texto:
-      "Conte como foi o primeiro encontro de vocês. " +
-      "O nervosismo, a conversa que não acabava, a vontade de que o tempo parasse.",
-  },
-  {
-    foto: "fotos/momento-3.jpg",
-    data: "Um dia inesquecível",
-    titulo: "O pedido de namoro",
-    texto:
-      "Como foi o momento em que vocês oficializaram? " +
-      "Descreva o lugar, as palavras, o sorriso dela.",
-  },
-  {
-    foto: "fotos/momento-4.jpg",
-    data: "Nossa primeira aventura",
-    titulo: "A primeira viagem",
-    texto:
-      "Aquela viagem que virou história. " +
-      "Os perrengues que viraram risada e as paisagens que ficaram pequenas perto de vocês dois.",
-  },
-  {
-    foto: "fotos/momento-5.jpg",
-    data: "Hoje e sempre",
-    titulo: "Cada dia ao seu lado",
-    texto:
-      "Um texto sobre o presente: o que ela significa pra você hoje " +
-      "e tudo o que ainda querem viver juntos.",
+      "Fiz uma retrospectiva da nossa história juntos em formato de site.\n" +
+      "Espero que goste ❤️",
   },
 ];
 

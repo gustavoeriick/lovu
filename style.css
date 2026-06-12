@@ -233,6 +233,22 @@ body {
   text-align: right;
 }
 
+/* seções só de texto: conteúdo centralizado, sem véu lateral */
+.momento.centralizado,
+.momento.centralizado.invertido {
+  justify-content: center;
+}
+
+.momento.centralizado .momento-conteudo {
+  text-align: center;
+  margin: 0 1rem;
+  max-width: 40rem;
+}
+
+.momento.centralizado::before {
+  background: rgba(59, 42, 48, 0.25);
+}
+
 .momento-data {
   display: inline-block;
   font-family: "Great Vibes", cursive;
@@ -252,6 +268,7 @@ body {
 }
 
 .momento-texto {
+  white-space: pre-line; /* respeita quebras de linha (\n) do momentos.js */
   font-weight: 300;
   font-size: clamp(1rem, 2vw, 1.18rem);
   line-height: 1.7;
@@ -395,6 +412,17 @@ body {
 
   .momento.invertido {
     justify-content: flex-start;
+  }
+
+  .momento.centralizado .momento-conteudo {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .momento.centralizado,
+  .momento.centralizado.invertido {
+    align-items: center;
+    justify-content: center;
   }
 }
 
