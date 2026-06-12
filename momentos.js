@@ -107,6 +107,14 @@ const MOMENTOS = [
       "Outra coisa também foi descobrir como você sempre está comigo, " +
       "me acompanhando nos rolês, sempre topando e sugerindo algo legal pra fazer. 🍺",
   },
+  {
+    foto: "fotos/primeira-casa.jpg",
+    data: "De volta ao Sana",
+    titulo: "Nossa primeira casa",
+    texto:
+      "No início a gente estava sempre querendo voltar pro Sana pra viver nossa vidinha a dois, " +
+      "na nossa casinha que só cabia a gente e duas mochilas.",
+  },
 ];
 
 // Mensagem final do site
