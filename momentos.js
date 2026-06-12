@@ -190,6 +190,16 @@ const MOMENTOS = [
       "Nos acostumamos a sair e não beber. Curtimos vários shows com ela " +
       "e não precisamos esperar o sol raiar pra voltar pra casa.",
   },
+  {
+    foto: null,
+    data: "De surpresa",
+    titulo: "Shiva",
+    texto:
+      "Logo depois do seu aniversário de 22 anos, uma gatinha começou a comer o lixo da sua mãe " +
+      "e não queria ir embora. Sua mãe toda vez tinha que enxotar ela. " +
+      "Até que um dia ela ficou de vez nas nossas vidas. " +
+      "Hoje ela é nossa godona, amor de família, terrívelzinha e etc 🐱",
+  },
 ];
 
 // Mensagem final do site
