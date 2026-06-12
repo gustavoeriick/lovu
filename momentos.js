@@ -236,6 +236,14 @@ const MOMENTOS = [
     titulo: "Shiva mamãe",
     texto: "Vimos Shiva ser mamãe e cuidar muito dos nenéns dela ❤️",
   },
+  {
+    foto: "fotos/exageramos.jpg",
+    data: "A virada para 2019",
+    titulo: "Exageramos",
+    texto:
+      "Na nossa segunda virada de 2018 para 2019, resolvemos levar tudo que dava pra pendurar na mochila. " +
+      "Só não imaginávamos que isso pesaria uns 30kg e que o rolê seria um dos piores que já tivemos na vida!",
+  },
 ];
 
 // Mensagem final do site
