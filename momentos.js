@@ -351,6 +351,21 @@ const MOMENTOS = [
       "Passamos meses sem gás para cozinhar e esquentar a água pro banho. " +
       "Inclusive só conseguimos esse direito porque colocamos a Naturgy na justiça e ganhamos. 🙏",
   },
+  {
+    foto: "fotos/savana.jpg",
+    data: "Todo fim de tarde",
+    titulo: "Savana",
+    texto:
+      "Das poucas coisas que gostávamos de morar no apartamento, " +
+      "de longe o pôr do sol era o melhor de todos. " +
+      "Tanto que demos o apelido de 'Nossa Savana'.",
+  },
+  {
+    foto: "fotos/sem-exagero.jpg",
+    data: "Nossa Savana",
+    titulo: "Sem exagero!",
+    texto: "Olha esse pôr do sol cara!!",
+  },
 ];
 
 // Mensagem final do site
