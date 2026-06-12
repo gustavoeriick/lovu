@@ -335,6 +335,22 @@ const MOMENTOS = [
       "Nossa casa tinha alagado. E isso nos forçou a sair da nossa casa e procurar um lugar mais seguro para morar. " +
       "E em poucos dias estávamos morando em um apartamento térreo no mesmo bairro.",
   },
+  {
+    foto: null,
+    data: "No apartamento novo",
+    titulo: "Cupim",
+    texto:
+      "Em pouco tempo descobrimos que o apartamento estava infestado de cupim " +
+      "e tivemos que passar por mais um momento complicado.",
+  },
+  {
+    foto: "fotos/sem-gas.jpg",
+    data: "Meses de luta",
+    titulo: "Sem Gás",
+    texto:
+      "Passamos meses sem gás para cozinhar e esquentar a água pro banho. " +
+      "Inclusive só conseguimos esse direito porque colocamos a Naturgy na justiça e ganhamos. 🙏",
+  },
 ];
 
 // Mensagem final do site
