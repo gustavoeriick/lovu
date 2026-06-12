@@ -474,6 +474,15 @@ const MOMENTOS = [
       "separado e aproveitei para comprar mesa nova, armário e gaveteiro. " +
       "Um escritório de verdade. Amo esse meu cantinho.",
   },
+  {
+    foto: "fotos/uniao.jpg",
+    data: "Dezembro de 2025",
+    titulo: "União",
+    texto:
+      "Em dezembro de 2025 fizemos nossa união estável e isso foi uma virada no nosso " +
+      "relacionamento. Tanto em reforçar os nossos laços quanto para ser possível você " +
+      "poder se cuidar com o plano de saúde.",
+  },
 ];
 
 // Mensagem final do site
