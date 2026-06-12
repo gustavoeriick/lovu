@@ -57,6 +57,16 @@ const MOMENTOS = [
       "Mas agora eu te conheci, você me conheceu e agora tivemos a certeza. " +
       "Temos uma conexão que não dá para explicar. Parece que te conheço a vida toda.",
   },
+  {
+    foto: "fotos/um-casal.jpg",
+    data: "Pouco tempo depois",
+    titulo: "Um casal!",
+    texto:
+      "Nos tornamos um casal e ninguém esperava! Seus amigos não me conheciam. " +
+      "Os meus amigos não te conheciam. Ninguém esperava esse casal! " +
+      "Eu lembro que não tínhamos nenhum seguidor em comum no Instagram. " +
+      "Se não fosse o Tinder, provavelmente a gente nunca iria se esbarrar e se conhecer.",
+  },
 ];
 
 // Mensagem final do site
