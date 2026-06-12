@@ -160,7 +160,7 @@ const MOMENTOS = [
       "Nessa virada iniciamos a tradição de passar as viradas de ano acampando, mas ainda nem sabíamos disso.",
   },
   {
-    foto: null,
+    foto: "fotos/jose-goncalves.jpg",
     data: "Em Búzios",
     titulo: "Praia José Gonçalves",
     texto:
