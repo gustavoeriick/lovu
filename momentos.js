@@ -39,6 +39,15 @@ const MOMENTOS = [
       "Vamos em uma rave no Sana? Bora!!\n" +
       "Eu nunca tinha ido em uma rave, nunca tinha acampado e nunca tinha visto a menina que eu conversava todos os dias pelos últimos 6 meses e que morava a poucos quilômetros de mim. A oportunidade perfeita de viver um momento incrível!",
   },
+  {
+    foto: "fotos/sana-vista.jpg",
+    data: "Ainda no Sana",
+    titulo: "Experiência incrível!!",
+    texto:
+      "A Rave? Não...\n" +
+      "Ter te conhecido!!\n" +
+      "Me apaixonei duplamente. Por você e pelo lugar. O Sana se tornou a nossa segunda casa.",
+  },
 ];
 
 // Mensagem final do site
