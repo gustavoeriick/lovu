@@ -181,6 +181,15 @@ const MOMENTOS = [
     titulo: "Primeiro bloquinho",
     texto: "Curtimos nosso primeiro bloquinho juntos com alguns amigos meus.",
   },
+  {
+    foto: null,
+    data: "Sobre duas rodas",
+    titulo: "Motinha",
+    texto:
+      "Comprei nossa motinha, que tanto nos levou pra todo canto. Viajamos demais! " +
+      "Nos acostumamos a sair e não beber. Curtimos vários shows com ela " +
+      "e não precisamos esperar o sol raiar pra voltar pra casa.",
+  },
 ];
 
 // Mensagem final do site

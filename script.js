@@ -35,6 +35,10 @@
     "Capítulo nove", "Capítulo dez", "Capítulo onze", "Capítulo doze",
     "Capítulo treze", "Capítulo quatorze", "Capítulo quinze", "Capítulo dezesseis",
     "Capítulo dezessete", "Capítulo dezoito", "Capítulo dezenove", "Capítulo vinte",
+    "Capítulo vinte e um", "Capítulo vinte e dois", "Capítulo vinte e três",
+    "Capítulo vinte e quatro", "Capítulo vinte e cinco", "Capítulo vinte e seis",
+    "Capítulo vinte e sete", "Capítulo vinte e oito", "Capítulo vinte e nove",
+    "Capítulo trinta",
   ];
 
   var capitulo = 0;
