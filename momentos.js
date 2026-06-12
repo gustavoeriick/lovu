@@ -446,6 +446,14 @@ const MOMENTOS = [
     texto:
       "Ganhei meu 212 de aniversário em 2023 e estou chocado que só agora ele está acabando. 😮",
   },
+  {
+    foto: "fotos/guarda-roupas.jpg",
+    data: "Dezembro de 2023",
+    titulo: "Guarda-roupas",
+    texto:
+      "Em dezembro compramos o nosso guarda-roupas maravilhoso e também a nossa " +
+      "mesa de jantar dos sonhos!!",
+  },
 ];
 
 // Mensagem final do site
