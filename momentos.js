@@ -420,6 +420,14 @@ const MOMENTOS = [
       "Deixei o cabelo crescer. Era um sonho ter cabelo grande e por um tempo foi legal, " +
       "até uns produtos acabarem com ele. Mas valeu a experiência.",
   },
+  {
+    foto: "fotos/fim-de-uma-era.jpg",
+    data: "2023",
+    titulo: "Fim de uma era",
+    texto:
+      "Encerramos os atendimentos com o ateliê no shopping e mudamos para o Centro da cidade. " +
+      "Mais um sonho realizado. ❤️",
+  },
 ];
 
 // Mensagem final do site
