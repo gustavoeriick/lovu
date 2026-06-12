@@ -200,6 +200,12 @@ const MOMENTOS = [
       "Até que um dia ela ficou de vez nas nossas vidas. " +
       "Hoje ela é nossa godona, amor de família, terrívelzinha e etc 🐱",
   },
+  {
+    foto: "fotos/lugares.jpg",
+    data: "Por aí",
+    titulo: "Lugares",
+    texto: "Conhecemos uns lugares diferentes juntos ❤️",
+  },
 ];
 
 // Mensagem final do site
