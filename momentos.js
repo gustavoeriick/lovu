@@ -212,6 +212,14 @@ const MOMENTOS = [
     titulo: "Bebe & Come",
     texto: "E sempre comendo e sempre bebendo 😂",
   },
+  {
+    foto: "fotos/praias.jpg",
+    data: "De areia em areia",
+    titulo: "Praias",
+    texto:
+      "Curtimos várias praias também. Principalmente depois da motinha. " +
+      "Era uma beleza estacionar em qualquer lugar 🥺",
+  },
 ];
 
 // Mensagem final do site
