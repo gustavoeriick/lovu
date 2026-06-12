@@ -428,6 +428,17 @@ const MOMENTOS = [
       "Encerramos os atendimentos com o ateliê no shopping e mudamos para o Centro da cidade. " +
       "Mais um sonho realizado. ❤️",
   },
+  {
+    foto: "fotos/mudanca-maluca.jpg",
+    data: "Na mesma época",
+    titulo: "Mudança maluca",
+    texto:
+      "A mudança do ateliê para o Centro foi uma aventura. No shopping só podia fazer a mudança " +
+      "em horário comercial e a mudança no prédio no Centro só podia depois do horário comercial. " +
+      "O motorista do caminhão teve uma ideia genial: entrar como carro pagante. Estacionou no " +
+      "estacionamento externo e jogamos tudo dentro em tempo recorde. Mas boa parte da mudança " +
+      "fizemos de carro.",
+  },
 ];
 
 // Mensagem final do site
