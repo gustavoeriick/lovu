@@ -115,6 +115,15 @@ const MOMENTOS = [
       "No início a gente estava sempre querendo voltar pro Sana pra viver nossa vidinha a dois, " +
       "na nossa casinha que só cabia a gente e duas mochilas.",
   },
+  {
+    foto: "fotos/tempo-passando.jpg",
+    data: "Mês após mês",
+    titulo: "O tempo foi passando",
+    texto:
+      "E aquele casal improvável continuava juntos. " +
+      "Ninguém tava entendendo e já estavam deixando de se importar. " +
+      "Onde você estava eu estava e é isso. 😂",
+  },
 ];
 
 // Mensagem final do site
