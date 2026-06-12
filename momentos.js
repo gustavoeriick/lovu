@@ -85,6 +85,14 @@ const MOMENTOS = [
       "A gente inventava de fazer toda receita que aparecia na internet. " +
       "A gente tinha até um perfil no Insta, lembra? 😂",
   },
+  {
+    foto: "fotos/lado-irma.jpg",
+    data: "Com seus irmãos",
+    titulo: "Esse seu lado",
+    texto:
+      "Conheci o seu lado irmã. Amo como você cuida dos seus irmãos e sempre lembra deles com carinho. " +
+      "E tenho certeza, depois de tanto tempo, que eles te amam tanto quanto você os ama.",
+  },
 ];
 
 // Mensagem final do site
