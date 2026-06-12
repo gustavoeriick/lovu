@@ -295,6 +295,15 @@ const MOMENTOS = [
       "Somos convidados a morar juntos e a pandemia começa no mesmo mês que eu volto a trabalhar, " +
       "só que dessa vez 100% remoto. Foi tenso, mas temos muitas memórias boas dessa primeira casa. 🥺",
   },
+  {
+    foto: "fotos/renato.jpg",
+    data: "O agregado",
+    titulo: "Renato",
+    texto:
+      "Conhecemos o menino sibito. Que vivia na nossa casa. " +
+      "Foi o nosso segundo gato sem termos adotado ele oficialmente. " +
+      "Bastava abrir a porta de casa que ele vinha miando e deitando no sofá ou em algum tapete.",
+  },
 ];
 
 // Mensagem final do site
