@@ -31,6 +31,14 @@ const MOMENTOS = [
       "Nos conhecemos no Tinder, em julho de 2016. Os dois solteiros a mais de 2 anos, desapegados, sem pressa de entrar em um novo relacionamento...\n" +
       "Mas não conseguíamos passar um único dia sem se falar e foi assim por 6 meses (só por mensagem kkkk)",
   },
+  {
+    foto: "fotos/sana.jpg",
+    data: "Seis meses depois",
+    titulo: "Até que veio o convite estranho.",
+    texto:
+      "Vamos em uma rave no Sana? Bora!!\n" +
+      "Eu nunca tinha ido em uma rave, nunca tinha acampado e nunca tinha visto a menina que eu conversava todos os dias pelos últimos 6 meses e que morava a poucos quilômetros de mim. A oportunidade perfeita de viver um momento incrível!",
+  },
 ];
 
 // Mensagem final do site
