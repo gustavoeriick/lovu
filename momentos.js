@@ -465,6 +465,15 @@ const MOMENTOS = [
       "abriu e conseguimos aproveitar melhor, até mudamos a barraca lá pra cima e lá foi muito legal. " +
       "Acendemos fogueira e até comemos pizza morrendo de frio.",
   },
+  {
+    foto: "fotos/escritorio-novo.jpg",
+    data: "Fevereiro de 2024",
+    titulo: "Escritório novo!",
+    texto:
+      "Em fevereiro de 2024 já estávamos morando na casa atual e eu pude ter um escritório " +
+      "separado e aproveitei para comprar mesa nova, armário e gaveteiro. " +
+      "Um escritório de verdade. Amo esse meu cantinho.",
+  },
 ];
 
 // Mensagem final do site
