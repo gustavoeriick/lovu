@@ -23,6 +23,14 @@ const MOMENTOS = [
       "Fiz uma retrospectiva da nossa história juntos em formato de site.\n" +
       "Espero que goste ❤️",
   },
+  {
+    foto: null,
+    data: "Julho de 2016",
+    titulo: "Quem iria adivinhar?",
+    texto:
+      "Nos conhecemos no Tinder, em julho de 2016. Os dois solteiros a mais de 2 anos, desapegados, sem pressa de entrar em um novo relacionamento...\n" +
+      "Mas não conseguíamos passar um único dia sem se falar e foi assim por 6 meses (só por mensagem kkkk)",
+  },
 ];
 
 // Mensagem final do site
