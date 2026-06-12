@@ -183,7 +183,7 @@
       "<strong>" + dias.toLocaleString("pt-BR") + "</strong> dias, " +
       "<strong>" + horas + "</strong> horas, " +
       "<strong>" + minutos + "</strong> minutos e " +
-      "<strong>" + segundos + "</strong> segundos (e os segundos correndo).";
+      "<strong>" + segundos + "</strong> segundos.";
   }
 
   atualizarExtra();
