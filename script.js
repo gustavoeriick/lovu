@@ -167,6 +167,28 @@
   window.addEventListener("resize", aplicarParallax);
   aplicarParallax();
 
+  // ---------- extra: contador ao vivo desde a primeira conversa ----------
+  // Julho de 2016; sem saber o dia/hora exatos, usamos dia 1º ao meio-dia.
+  var primeiraConversa = new Date(2016, 6, 1, 12, 0, 0);
+  var extraTexto = document.getElementById("extraTexto");
+
+  function atualizarExtra() {
+    var diff = Math.floor((Date.now() - primeiraConversa.getTime()) / 1000);
+    var dias = Math.floor(diff / 86400);
+    var horas = Math.floor((diff % 86400) / 3600);
+    var minutos = Math.floor((diff % 3600) / 60);
+    var segundos = diff % 60;
+    extraTexto.innerHTML =
+      "Começamos a nos falar em julho de 2016, então estamos nos falando todos os dias há aproximadamente " +
+      "<strong>" + dias.toLocaleString("pt-BR") + "</strong> dias, " +
+      "<strong>" + horas + "</strong> horas, " +
+      "<strong>" + minutos + "</strong> minutos e " +
+      "<strong>" + segundos + "</strong> segundos (e os segundos correndo).";
+  }
+
+  atualizarExtra();
+  setInterval(atualizarExtra, 1000);
+
   // ---------- corações flutuando no final ----------
   if (!reduzMovimento) {
     var ninho = document.getElementById("coracoes");
