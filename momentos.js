@@ -387,6 +387,15 @@ const MOMENTOS = [
     titulo: "Fit",
     texto: "Foi a época mais firme de todas de boa alimentação e academia.",
   },
+  {
+    foto: "fotos/pc-novo.jpg",
+    data: "Dezembro de 2022",
+    titulo: "Mudanças importantes",
+    texto:
+      "Em dezembro de 2022 me tornei oficialmente um programador depois de quase um ano estudando. " +
+      "Aproveitei a rescisão do contrato e montei um PC novinho para iniciar no trabalho novo " +
+      "com um computador novinho. Eu mereço né! 😌",
+  },
 ];
 
 // Mensagem final do site
