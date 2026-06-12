@@ -149,6 +149,16 @@ const MOMENTOS = [
       "Outra coisa que descobrimos foi o amor por cachoeiras. " +
       "Visitamos várias ao longo do tempo juntos.",
   },
+  {
+    foto: "fotos/tradicao.jpg",
+    data: "A virada para 2018",
+    titulo: "O início da tradição",
+    texto:
+      "Nosso primeiro ano juntos resolvemos passar a virada de ano acampando. " +
+      "Então conhecemos o Camping das Acerolas em Búzios. " +
+      "Foi legal que sua mãe e seu padrinho também foram. " +
+      "Nessa virada iniciamos a tradição de passar as viradas de ano acampando, mas ainda nem sabíamos disso.",
+  },
 ];
 
 // Mensagem final do site
