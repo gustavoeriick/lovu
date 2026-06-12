@@ -141,6 +141,14 @@ const MOMENTOS = [
       "dando conta de tantas viagens e tanta coisa que a gente queria levar. " +
       "Mais espaço e mais conforto. 💙",
   },
+  {
+    foto: "fotos/cachoeira.jpg",
+    data: "Por todas as águas",
+    titulo: "Cachoeira",
+    texto:
+      "Outra coisa que descobrimos foi o amor por cachoeiras. " +
+      "Visitamos várias ao longo do tempo juntos.",
+  },
 ];
 
 // Mensagem final do site
