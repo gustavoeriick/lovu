@@ -48,6 +48,15 @@ const MOMENTOS = [
       "Ter te conhecido!!\n" +
       "Me apaixonei duplamente. Por você e pelo lugar. O Sana se tornou a nossa segunda casa.",
   },
+  {
+    foto: "fotos/virada-de-ano.jpg",
+    data: "A virada para 2017",
+    titulo: "E agora?",
+    texto:
+      "Virou o ano e continuamos a nos falar todos os dias como era antes. " +
+      "Mas agora eu te conheci, você me conheceu e agora tivemos a certeza. " +
+      "Temos uma conexão que não dá para explicar. Parece que te conheço a vida toda.",
+  },
 ];
 
 // Mensagem final do site
