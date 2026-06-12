@@ -125,7 +125,7 @@ const MOMENTOS = [
       "Onde você estava eu estava e é isso. 😂",
   },
   {
-    foto: null,
+    foto: "fotos/manolo.jpg",
     data: "Ali pertinho de casa",
     titulo: "Manolo",
     texto:
