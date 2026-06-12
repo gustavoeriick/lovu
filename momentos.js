@@ -439,6 +439,13 @@ const MOMENTOS = [
       "estacionamento externo e jogamos tudo dentro em tempo recorde. Mas boa parte da mudança " +
       "fizemos de carro.",
   },
+  {
+    foto: "fotos/212.jpg",
+    data: "Meu aniversário de 2023",
+    titulo: "212",
+    texto:
+      "Ganhei meu 212 de aniversário em 2023 e estou chocado que só agora ele está acabando. 😮",
+  },
 ];
 
 // Mensagem final do site
