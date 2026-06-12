@@ -311,7 +311,7 @@ const MOMENTOS = [
     texto: "Ganhamos um carro que nunca dirigimos.",
   },
   {
-    foto: null,
+    foto: "fotos/sem-virada.jpg",
     data: "A virada para 2021",
     titulo: "Sem virada no camping",
     texto:
