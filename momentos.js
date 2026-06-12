@@ -404,6 +404,14 @@ const MOMENTOS = [
       "Em março de 2023 você começou as aulas de tecido e eu amava te acompanhar " +
       "e assistir você fazendo algo desafiador pela primeira vez.",
   },
+  {
+    foto: null, // TODO: foto do Tubarão (usuário vai mandar depois)
+    data: "2023",
+    titulo: "Tubarão",
+    texto:
+      "Vendemos a motinha e compramos o tubarão. Um carro que era seu sonho. " +
+      "Até hoje está nos levando pra todo canto. Com ele aprendemos a cuidar de um carro.",
+  },
 ];
 
 // Mensagem final do site
