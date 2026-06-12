@@ -366,6 +366,21 @@ const MOMENTOS = [
     titulo: "Sem exagero!",
     texto: "Olha esse pôr do sol cara!!",
   },
+  {
+    foto: "fotos/buzios.jpg",
+    data: "Férias de 2022",
+    titulo: "Búzios",
+    texto:
+      "Conhecemos Búzios de outra forma. Pegamos um final de semana no meio das férias " +
+      "em um hotelzinho e acabamos ficando 4 dias. Foi uma pena você ter ficado tão resfriada. " +
+      "Mas ainda sim conseguimos curtir bastante o lugar. ❤️",
+  },
+  {
+    foto: "fotos/cabanas.jpg",
+    data: "Julho de 2022",
+    titulo: "Cabanas",
+    texto: "Comemos no Cabanas pela primeira vez e amamos!!",
+  },
 ];
 
 // Mensagem final do site
