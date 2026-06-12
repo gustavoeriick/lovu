@@ -179,6 +179,12 @@ body {
   opacity: 0.35;
 }
 
+/* momento intencionalmente sem foto: só o fundo, sem ícone de câmera */
+.momento-fundo.so-texto::after {
+  content: "❤";
+  color: rgba(255, 255, 255, 0.25);
+}
+
 .momento:nth-child(odd) .momento-fundo.sem-foto {
   background: linear-gradient(135deg, #8d3550, #d98a9c 60%, #e8b4a0);
 }

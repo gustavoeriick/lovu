@@ -42,15 +42,20 @@
     var fundo = document.createElement("div");
     fundo.className = "momento-fundo";
 
-    var img = document.createElement("img");
-    img.src = momento.foto;
-    img.alt = momento.titulo;
-    img.loading = i < 2 ? "eager" : "lazy";
-    img.onerror = function () {
-      // foto ainda não existe: mostra o fundo decorado no lugar
-      fundo.classList.add("sem-foto");
-    };
-    fundo.appendChild(img);
+    if (momento.foto) {
+      var img = document.createElement("img");
+      img.src = momento.foto;
+      img.alt = momento.titulo;
+      img.loading = i < 2 ? "eager" : "lazy";
+      img.onerror = function () {
+        // foto ainda não existe: mostra o fundo decorado no lugar
+        fundo.classList.add("sem-foto");
+      };
+      fundo.appendChild(img);
+    } else {
+      // momento sem foto: só o texto sobre o fundo decorado
+      fundo.classList.add("sem-foto", "so-texto");
+    }
 
     var conteudo = document.createElement("div");
     conteudo.className = "momento-conteudo";
