@@ -337,6 +337,7 @@ body {
 }
 
 .final-texto {
+  white-space: pre-line; /* respeita quebras de linha (\n) do momentos.js */
   font-weight: 300;
   font-size: clamp(1.05rem, 2.4vw, 1.3rem);
   line-height: 1.8;
@@ -390,6 +391,18 @@ body {
 @media (max-width: 640px) {
   .momento {
     align-items: flex-end;
+    background: #1e1217;
+  }
+
+  /* mostra a foto inteira, sem cortes: o parallax fica só no desktop */
+  .momento-fundo {
+    top: 0;
+    height: 100%;
+    transform: none !important;
+  }
+
+  .momento-fundo img {
+    object-fit: contain;
   }
 
   .momento::before,

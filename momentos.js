@@ -5,10 +5,6 @@
 //  no campo "foto" de cada momento.
 // ============================================================
 
-// Data em que vocês começaram (usada no contador do final do site)
-// Formato: ano, mês (1 a 12), dia
-const INICIO_DO_NAMORO = { ano: 2020, mes: 1, dia: 1 };
-
 const CASAL = {
   ele: "Gustavo",
   ela: "Juliana",
@@ -487,8 +483,13 @@ const MOMENTOS = [
 
 // Mensagem final do site
 const MENSAGEM_FINAL = {
-  titulo: "Feliz Dia dos Namorados",
+  titulo: "Conclusões",
   texto:
-    "Juliana, cada momento ao seu lado é o meu favorito. " +
-    "Te amo hoje, amanhã e em todos os capítulos que ainda vamos escrever juntos.",
+    "Sei que existiram muitos momentos importantes além destes, como a chegada de Piti " +
+    "nas nossas vidas. O início das suas aulas na faculdade. As minhas promoções.\n" +
+    "Tivemos inúmeros momentos difíceis nestes tempos, mas sempre conseguimos vencê-los juntos. " +
+    "E vai ser assim para sempre. Eu não tenho medo do futuro, porque eu sei que sempre vou " +
+    "vencer do seu lado.\n" +
+    "Você é o amor da minha vida.\n" +
+    "Eu te amo! 💎",
 };

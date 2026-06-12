@@ -15,18 +15,6 @@
   document.getElementById("assinatura").textContent =
     "Com amor, " + CASAL.ele + " ❤";
 
-  // contador de dias juntos
-  var inicio = new Date(
-    INICIO_DO_NAMORO.ano,
-    INICIO_DO_NAMORO.mes - 1,
-    INICIO_DO_NAMORO.dia
-  );
-  var dias = Math.floor((Date.now() - inicio.getTime()) / 86400000);
-  if (dias > 0) {
-    document.getElementById("contador").innerHTML =
-      "<strong>" + dias.toLocaleString("pt-BR") + "</strong> dias escrevendo essa história juntos";
-  }
-
   // ---------- gera uma seção para cada momento ----------
   var linha = document.getElementById("linhaDoTempo");
   var numeros = [
