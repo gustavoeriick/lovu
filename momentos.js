@@ -182,7 +182,7 @@ const MOMENTOS = [
     texto: "Curtimos nosso primeiro bloquinho juntos com alguns amigos meus.",
   },
   {
-    foto: null,
+    foto: "fotos/motinha.jpg",
     data: "Sobre duas rodas",
     titulo: "Motinha",
     texto:
