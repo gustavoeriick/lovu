@@ -268,6 +268,12 @@ const MOMENTOS = [
     titulo: "Um sonho realizado",
     texto: "Era simples, mas aconchegante e silencioso. E acima de tudo era seu!",
   },
+  {
+    foto: "fotos/sol.jpg",
+    data: "Novembro de 2019",
+    titulo: "Sol",
+    texto: "Vimos o show de um disco que só a gente ouviu e eu conheci o Dalsin.",
+  },
 ];
 
 // Mensagem final do site
