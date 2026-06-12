@@ -1,0 +1,401 @@
+/* ============================================================
+   Nossa História — estilos
+   ============================================================ */
+
+:root {
+  --creme: #faf4ee;
+  --tinta: #3b2a30;
+  --vinho: #7d2a3f;
+  --rosa: #d98a9c;
+  --rosa-claro: #f3dde2;
+  --dourado: #c9a35f;
+  --sombra: rgba(59, 42, 48, 0.45);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  color: var(--tinta);
+  background: var(--creme);
+  overflow-x: hidden;
+}
+
+/* ---------- barra de progresso ---------- */
+.progresso {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+  z-index: 50;
+}
+
+.progresso-barra {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--rosa), var(--vinho));
+  transition: width 0.1s linear;
+}
+
+/* ---------- capa ---------- */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-fundo {
+  position: absolute;
+  inset: -10%;
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(217, 138, 156, 0.35), transparent 55%),
+    radial-gradient(ellipse at 80% 70%, rgba(125, 42, 63, 0.25), transparent 50%),
+    radial-gradient(ellipse at 60% 10%, rgba(201, 163, 95, 0.2), transparent 45%),
+    var(--creme);
+  will-change: transform;
+}
+
+.hero-conteudo {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  max-width: 56rem;
+}
+
+.hero-sub {
+  font-family: "Great Vibes", cursive;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  color: var(--vinho);
+  margin-bottom: 0.5rem;
+}
+
+.hero-titulo {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: clamp(2.4rem, 8vw, 5.5rem);
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+
+.hero-titulo .amp {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  color: var(--dourado);
+  font-size: 0.8em;
+  padding: 0 0.1em;
+}
+
+.hero-frase {
+  margin-top: 1.4rem;
+  font-weight: 300;
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  letter-spacing: 0.06em;
+  color: rgba(59, 42, 48, 0.75);
+}
+
+/* setinha animada convidando a rolar */
+.seta-scroll {
+  position: absolute;
+  bottom: 2.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.seta-scroll span {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-right: 2px solid var(--vinho);
+  border-bottom: 2px solid var(--vinho);
+  transform: rotate(45deg);
+  animation: pulsoSeta 1.8s infinite;
+  opacity: 0.7;
+}
+
+@keyframes pulsoSeta {
+  0%   { transform: rotate(45deg) translate(0, 0); opacity: 0.2; }
+  50%  { transform: rotate(45deg) translate(6px, 6px); opacity: 0.9; }
+  100% { transform: rotate(45deg) translate(0, 0); opacity: 0.2; }
+}
+
+/* ---------- momentos (parallax) ---------- */
+.momento {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* imagem maior que a seção; o script desloca no scroll (parallax) */
+.momento-fundo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -18%;
+  height: 136%;
+  z-index: 0;
+  will-change: transform;
+}
+
+.momento-fundo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* quando a foto ainda não existe, mostra um fundo bonito no lugar */
+.momento-fundo.sem-foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.momento-fundo.sem-foto img {
+  display: none;
+}
+
+.momento-fundo.sem-foto::after {
+  content: "📷 ❤️";
+  font-size: clamp(3rem, 8vw, 6rem);
+  opacity: 0.35;
+}
+
+.momento:nth-child(odd) .momento-fundo.sem-foto {
+  background: linear-gradient(135deg, #8d3550, #d98a9c 60%, #e8b4a0);
+}
+
+.momento:nth-child(even) .momento-fundo.sem-foto {
+  background: linear-gradient(135deg, #4a2733, #7d2a3f 55%, #b65a72);
+}
+
+/* véu escuro para o texto ficar legível sobre a foto */
+.momento::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    to right,
+    var(--sombra) 0%,
+    rgba(59, 42, 48, 0.15) 55%,
+    rgba(59, 42, 48, 0.05) 100%
+  );
+}
+
+.momento.invertido::before {
+  background: linear-gradient(
+    to left,
+    var(--sombra) 0%,
+    rgba(59, 42, 48, 0.15) 55%,
+    rgba(59, 42, 48, 0.05) 100%
+  );
+}
+
+.momento-conteudo {
+  position: relative;
+  z-index: 2;
+  max-width: 34rem;
+  margin: 0 6vw;
+  padding: 2.4rem 2.2rem;
+  color: #fff;
+}
+
+.momento.invertido {
+  justify-content: flex-end;
+}
+
+.momento.invertido .momento-conteudo {
+  text-align: right;
+}
+
+.momento-data {
+  display: inline-block;
+  font-family: "Great Vibes", cursive;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: var(--rosa-claro);
+  margin-bottom: 0.6rem;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.momento-titulo {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 600;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.5);
+}
+
+.momento-texto {
+  font-weight: 300;
+  font-size: clamp(1rem, 2vw, 1.18rem);
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
+}
+
+.momento-numero {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--dourado);
+  margin-bottom: 0.8rem;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* ---------- animação de entrada dos textos ---------- */
+.fade-item {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.visivel .fade-item {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.visivel .fade-item:nth-child(1) { transition-delay: 0.05s; }
+.visivel .fade-item:nth-child(2) { transition-delay: 0.2s; }
+.visivel .fade-item:nth-child(3) { transition-delay: 0.35s; }
+.visivel .fade-item:nth-child(4) { transition-delay: 0.5s; }
+.visivel .fade-item:nth-child(5) { transition-delay: 0.65s; }
+
+/* ---------- final ---------- */
+.final {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 50% 110%, rgba(217, 138, 156, 0.5), transparent 60%),
+    linear-gradient(180deg, #2c1a21 0%, #4a2733 100%);
+  color: #fff;
+}
+
+.final-conteudo {
+  position: relative;
+  z-index: 2;
+  max-width: 46rem;
+  padding: 2rem;
+}
+
+.final-titulo {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-size: clamp(2.6rem, 7vw, 4.5rem);
+  color: var(--rosa-claro);
+  margin-bottom: 1.4rem;
+}
+
+.final-texto {
+  font-weight: 300;
+  font-size: clamp(1.05rem, 2.4vw, 1.3rem);
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.contador {
+  margin-top: 2.2rem;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1rem, 2.4vw, 1.2rem);
+  color: var(--dourado);
+  letter-spacing: 0.05em;
+}
+
+.contador strong {
+  font-size: 1.5em;
+}
+
+.assinatura {
+  margin-top: 2.6rem;
+  font-family: "Great Vibes", cursive;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  color: var(--rosa);
+}
+
+/* corações flutuando */
+.coracoes {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.coracao {
+  position: absolute;
+  bottom: -8%;
+  font-size: 1.2rem;
+  opacity: 0;
+  animation: subir linear infinite;
+}
+
+@keyframes subir {
+  0%   { transform: translateY(0) scale(0.6) rotate(-8deg); opacity: 0; }
+  12%  { opacity: 0.8; }
+  85%  { opacity: 0.5; }
+  100% { transform: translateY(-110vh) scale(1.15) rotate(10deg); opacity: 0; }
+}
+
+/* ---------- celular ---------- */
+@media (max-width: 640px) {
+  .momento {
+    align-items: flex-end;
+  }
+
+  .momento::before,
+  .momento.invertido::before {
+    background: linear-gradient(
+      to top,
+      rgba(30, 18, 23, 0.85) 0%,
+      rgba(30, 18, 23, 0.35) 55%,
+      rgba(30, 18, 23, 0.1) 100%
+    );
+  }
+
+  .momento-conteudo,
+  .momento.invertido .momento-conteudo {
+    margin: 0;
+    padding: 2rem 1.6rem 3.4rem;
+    max-width: none;
+    text-align: left;
+  }
+
+  .momento.invertido {
+    justify-content: flex-start;
+  }
+}
+
+/* respeita quem prefere menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .fade-item { transition: none; opacity: 1; transform: none; }
+  .coracao { animation: none; display: none; }
+  .seta-scroll span { animation: none; }
+}

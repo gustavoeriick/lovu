@@ -1,0 +1,11 @@
+Coloque as fotos dos momentos nesta pasta.
+
+Nomeie como está no arquivo momentos.js:
+  momento-1.jpg
+  momento-2.jpg
+  momento-3.jpg
+  momento-4.jpg
+  momento-5.jpg
+
+Dica: fotos na horizontal (deitadas) ficam melhores, porque ocupam a tela inteira.
+Se possível, redimensione para no máximo ~1920px de largura para o site carregar rápido.
