@@ -285,6 +285,16 @@ const MOMENTOS = [
       "E quando chegamos em Rio Bonito o céu estava azul, sol brilhando, pista seca, carros secos e a gente encharcados, pingando. " +
       "Tudo na mochila encharcado. Depois do sufoco a gente conseguiu rir da situação 😂",
   },
+  {
+    foto: "fotos/2020.jpg",
+    data: "O ano maluco",
+    titulo: "2020",
+    texto:
+      "Que ano maluco. Comecei o ano sofrendo acidente de moto quase chegando no trabalho. " +
+      "Fui afastado por 3 meses por ter fraturado o calcanhar do pé direito e em março...\n" +
+      "Somos convidados a morar juntos e a pandemia começa no mesmo mês que eu volto a trabalhar, " +
+      "só que dessa vez 100% remoto. Foi tenso, mas temos muitas memórias boas dessa primeira casa. 🥺",
+  },
 ];
 
 // Mensagem final do site
