@@ -191,7 +191,7 @@ const MOMENTOS = [
       "e não precisamos esperar o sol raiar pra voltar pra casa.",
   },
   {
-    foto: null,
+    foto: "fotos/shiva.jpg",
     data: "De surpresa",
     titulo: "Shiva",
     texto:
