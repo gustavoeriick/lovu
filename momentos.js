@@ -405,12 +405,20 @@ const MOMENTOS = [
       "e assistir você fazendo algo desafiador pela primeira vez.",
   },
   {
-    foto: null, // TODO: foto do Tubarão (usuário vai mandar depois)
+    foto: "fotos/tubarao.jpg",
     data: "2023",
     titulo: "Tubarão",
     texto:
       "Vendemos a motinha e compramos o tubarão. Um carro que era seu sonho. " +
       "Até hoje está nos levando pra todo canto. Com ele aprendemos a cuidar de um carro.",
+  },
+  {
+    foto: "fotos/cabelao.jpg",
+    data: "Ainda em 2023",
+    titulo: "Cabelão",
+    texto:
+      "Deixei o cabelo crescer. Era um sonho ter cabelo grande e por um tempo foi legal, " +
+      "até uns produtos acabarem com ele. Mas valeu a experiência.",
   },
 ];
 
