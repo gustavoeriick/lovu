@@ -99,6 +99,14 @@ const MOMENTOS = [
     titulo: "Besta",
     texto: "E amei também conhecer esse seu lado besta ❤️",
   },
+  {
+    foto: "fotos/companheira.jpg",
+    data: "Em todos os rolês",
+    titulo: "Minha companheira de sempre",
+    texto:
+      "Outra coisa também foi descobrir como você sempre está comigo, " +
+      "me acompanhando nos rolês, sempre topando e sugerindo algo legal pra fazer. 🍺",
+  },
 ];
 
 // Mensagem final do site
