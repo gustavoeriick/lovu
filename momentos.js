@@ -252,6 +252,16 @@ const MOMENTOS = [
       "Você se aventurou dando aulas. " +
       "Fui muito em gráficas imprimir diplomas e livretos 🚀",
   },
+  {
+    foto: "fotos/atelie.jpg",
+    data: "Março de 2019",
+    titulo: "Ateliê",
+    texto:
+      "Em março de 2019 realizamos o sonho de alugar o ateliê. " +
+      "Os atendimentos que você começou fazendo trabalhando para os outros, " +
+      "depois atendendo em casa, até indo na casa das pessoas, " +
+      "agora teriam seu próprio espaço comercial 🥹",
+  },
 ];
 
 // Mensagem final do site
