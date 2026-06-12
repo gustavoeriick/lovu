@@ -67,6 +67,15 @@ const MOMENTOS = [
       "Eu lembro que não tínhamos nenhum seguidor em comum no Instagram. " +
       "Se não fosse o Tinder, provavelmente a gente nunca iria se esbarrar e se conhecer.",
   },
+  {
+    foto: "fotos/qualquer-desculpa.jpg",
+    data: "Qualquer dia da semana",
+    titulo: "E depois?",
+    texto:
+      "A gente inventava qualquer coisa pra se ver. " +
+      "Eu ia na sua casa no meio da semana. Você ia na minha. " +
+      "Às vezes só pra conversar e ficar junto.",
+  },
 ];
 
 // Mensagem final do site
