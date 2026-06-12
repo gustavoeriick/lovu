@@ -159,6 +159,14 @@ const MOMENTOS = [
       "Foi legal que sua mãe e seu padrinho também foram. " +
       "Nessa virada iniciamos a tradição de passar as viradas de ano acampando, mas ainda nem sabíamos disso.",
   },
+  {
+    foto: null,
+    data: "Em Búzios",
+    titulo: "Praia José Gonçalves",
+    texto:
+      "Lá conhecemos a melhor praia de todas. Uma que nunca tínhamos ouvido falar. " +
+      "Linda, calma, rasa e pouco frequentada. Temos que voltar lá!!",
+  },
 ];
 
 // Mensagem final do site
