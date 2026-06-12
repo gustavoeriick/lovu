@@ -274,6 +274,17 @@ const MOMENTOS = [
     titulo: "Sol",
     texto: "Vimos o show de um disco que só a gente ouviu e eu conheci o Dalsin.",
   },
+  {
+    foto: "fotos/aquela-chuva.jpg",
+    data: "Sana, de motinha",
+    titulo: "Aquela chuva",
+    texto:
+      "Viajamos pro Sana de motinha, dessa vez para ficar em chalé. " +
+      "Foi tudo lindo, menos a volta, que decidimos sair para não pegar a chuva que estava vindo, mas ela já estava lá. " +
+      "Pegamos a pior chuva das nossas vidas. Não tinha o que fazer a não ser seguir viagem debaixo de um pé d'água. " +
+      "E quando chegamos em Rio Bonito o céu estava azul, sol brilhando, pista seca, carros secos e a gente encharcados, pingando. " +
+      "Tudo na mochila encharcado. Depois do sufoco a gente conseguiu rir da situação 😂",
+  },
 ];
 
 // Mensagem final do site
