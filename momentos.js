@@ -230,6 +230,12 @@ const MOMENTOS = [
       "não consegui criar esse sentimento por eles. " +
       "Mas através de você eu ganhei uma família ❤️",
   },
+  {
+    foto: "fotos/shiva-mamae.jpg",
+    data: "A família cresceu",
+    titulo: "Shiva mamãe",
+    texto: "Vimos Shiva ser mamãe e cuidar muito dos nenéns dela ❤️",
+  },
 ];
 
 // Mensagem final do site
