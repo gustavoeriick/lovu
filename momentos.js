@@ -124,6 +124,14 @@ const MOMENTOS = [
       "Ninguém tava entendendo e já estavam deixando de se importar. " +
       "Onde você estava eu estava e é isso. 😂",
   },
+  {
+    foto: null,
+    data: "Ali pertinho de casa",
+    titulo: "Manolo",
+    texto:
+      "Nosso chopp favorito ficava tão pertinho. Nem precisava pegar Uber. " +
+      "Que saudades inclusive. Uma pena ter fechado. 🥺",
+  },
 ];
 
 // Mensagem final do site
