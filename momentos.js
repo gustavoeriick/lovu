@@ -262,6 +262,12 @@ const MOMENTOS = [
       "depois atendendo em casa, até indo na casa das pessoas, " +
       "agora teriam seu próprio espaço comercial 🥹",
   },
+  {
+    foto: "fotos/sonho-realizado.jpg",
+    data: "O seu espaço",
+    titulo: "Um sonho realizado",
+    texto: "Era simples, mas aconchegante e silencioso. E acima de tudo era seu!",
+  },
 ];
 
 // Mensagem final do site
