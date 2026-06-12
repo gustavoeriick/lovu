@@ -167,6 +167,14 @@ const MOMENTOS = [
       "Lá conhecemos a melhor praia de todas. Uma que nunca tínhamos ouvido falar. " +
       "Linda, calma, rasa e pouco frequentada. Temos que voltar lá!!",
   },
+  {
+    foto: "fotos/primeiro-passo.jpg",
+    data: "Janeiro de 2018",
+    titulo: "O primeiro passo",
+    texto:
+      "Em janeiro de 2018 você deu início a uma virada de chave na sua vida " +
+      "com aquele curso na Embelleze. Lembro de ir te buscar depois das aulas.",
+  },
 ];
 
 // Mensagem final do site
