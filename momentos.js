@@ -304,6 +304,12 @@ const MOMENTOS = [
       "Foi o nosso segundo gato sem termos adotado ele oficialmente. " +
       "Bastava abrir a porta de casa que ele vinha miando e deitando no sofá ou em algum tapete.",
   },
+  {
+    foto: null,
+    data: "Vai entender",
+    titulo: "Pálio",
+    texto: "Ganhamos um carro que nunca dirigimos.",
+  },
 ];
 
 // Mensagem final do site
