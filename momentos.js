@@ -93,6 +93,12 @@ const MOMENTOS = [
       "Conheci o seu lado irmã. Amo como você cuida dos seus irmãos e sempre lembra deles com carinho. " +
       "E tenho certeza, depois de tanto tempo, que eles te amam tanto quanto você os ama.",
   },
+  {
+    foto: "fotos/lado-besta.jpg",
+    data: "Todo santo dia",
+    titulo: "Besta",
+    texto: "E amei também conhecer esse seu lado besta ❤️",
+  },
 ];
 
 // Mensagem final do site
