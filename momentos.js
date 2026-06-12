@@ -305,7 +305,7 @@ const MOMENTOS = [
       "Bastava abrir a porta de casa que ele vinha miando e deitando no sofá ou em algum tapete.",
   },
   {
-    foto: null,
+    foto: "fotos/palio.jpg",
     data: "Vai entender",
     titulo: "Pálio",
     texto: "Ganhamos um carro que nunca dirigimos.",
