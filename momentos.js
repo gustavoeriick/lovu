@@ -244,6 +244,14 @@ const MOMENTOS = [
       "Na nossa segunda virada de 2018 para 2019, resolvemos levar tudo que dava pra pendurar na mochila. " +
       "Só não imaginávamos que isso pesaria uns 30kg e que o rolê seria um dos piores que já tivemos na vida!",
   },
+  {
+    foto: "fotos/aulas.jpg",
+    data: "Professora Juliana",
+    titulo: "Aulas",
+    texto:
+      "Você se aventurou dando aulas. " +
+      "Fui muito em gráficas imprimir diplomas e livretos 🚀",
+  },
 ];
 
 // Mensagem final do site
