@@ -132,6 +132,15 @@ const MOMENTOS = [
       "Nosso chopp favorito ficava tão pertinho. Nem precisava pegar Uber. " +
       "Que saudades inclusive. Uma pena ter fechado. 🥺",
   },
+  {
+    foto: "fotos/casa-nova.jpg",
+    data: "Menos de um ano depois",
+    titulo: "Casa nova",
+    texto:
+      "Em menos de um ano, já estávamos trocando de casa porque a antiga já não estava " +
+      "dando conta de tantas viagens e tanta coisa que a gente queria levar. " +
+      "Mais espaço e mais conforto. 💙",
+  },
 ];
 
 // Mensagem final do site
