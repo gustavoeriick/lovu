@@ -326,6 +326,15 @@ const MOMENTOS = [
       "Finalmente montei meu próprio escritório em cada detalhezinho. " +
       "Era meu sonho ter meu cantinho também. 😊",
   },
+  {
+    foto: "fotos/ano-de-mudancas.jpg",
+    data: "Janeiro de 2021",
+    titulo: "Ano de mudanças",
+    texto:
+      "O ano virou e em um dia qualquer do início de janeiro acordamos com os pés na água. " +
+      "Nossa casa tinha alagado. E isso nos forçou a sair da nossa casa e procurar um lugar mais seguro para morar. " +
+      "E em poucos dias estávamos morando em um apartamento térreo no mesmo bairro.",
+  },
 ];
 
 // Mensagem final do site
